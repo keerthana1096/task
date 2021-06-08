@@ -1,0 +1,28 @@
+{
+  "tasks": [
+    {
+      "title": "sleeping",
+      "description": "eatingat 6",
+      "currentdate": "Tue Jun 08 2021 09:36:46 GMT+0530 (India Standard Time)",
+      "enddate": "2021-06-08T11:48",
+      "completed": false,
+      "id": 2
+    },
+    {
+      "title": "Reading",
+      "description": "read at 5.30",
+      "currentdate": "Tue Jun 08 2021 10:12:46 GMT+0530 (India Standard Time)",
+      "enddate": "2021-06-09T11:12",
+      "completed": true,
+      "id": 3
+    },
+    {
+      "title": "sleeping",
+      "description": "sleep at 7",
+      "currentdate": "2021-6-8",
+      "enddate": "2021-06-10T11:44",
+      "completed": false,
+      "id": 4
+    }
+  ]
+}
