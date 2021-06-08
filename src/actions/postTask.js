@@ -1,7 +1,7 @@
+
 /* eslint-disable no-unused-vars */
 /* eslint-disable no-undef */
 import axios from 'axios'
-
 import { ADD_TASK, DELETE_TASK, FETCH_TASK } from './types'
 export function postTask (data) {
   axios.post('http://localhost:3000/tasks', {
@@ -16,7 +16,7 @@ export function postTask (data) {
     alert(response.data)
     console.log(response.data)
     return dispatch => {
-      dispatch(createTaskSuccess(response.data))
+      
       dispatch(fetchAllTasks())
     }
   }).catch((error) => {
